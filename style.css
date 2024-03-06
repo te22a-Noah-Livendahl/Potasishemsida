@@ -1,4 +1,27 @@
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 header{
     background-color: green;
     text-align: center;
+}
+
+article div{
+    background-color: lightgray;
+    text-align: center;
+}
+
+article{
+    width: 30%;
+}
+
+article img{
+    width: 100%;
+}
+button{
+    
 }
