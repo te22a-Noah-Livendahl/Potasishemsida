@@ -5,6 +5,12 @@ main{
     justify-content: space-evenly;
 }
 
+body{
+    padding: 5px;
+    
+    
+}
+
 header{
     background-color: green;
     text-align: center;
@@ -36,7 +42,7 @@ footer{
     width: 100%;
 }
 
-#cart {
+#varukorg {
     background-color: lightgrey;
     padding: 2%;
     margin-bottom: 5%;
