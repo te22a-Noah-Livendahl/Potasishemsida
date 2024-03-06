@@ -17,11 +17,19 @@ article div{
 
 article{
     width: 30%;
+    margin-bottom: 3%;
 }
 
 article img{
     width: 100%;
 }
-button{
-    
+article button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: lightgray;
+    text-align: center;
 }
