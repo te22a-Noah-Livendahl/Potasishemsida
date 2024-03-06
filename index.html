@@ -19,7 +19,7 @@
                 <h2>Sättpotatis ’Annabelle’ </h2>
             <p>79 kr /kg</p>
             </div>
-            <button>Köp</button>
+            <button onclick="lägg_till_varukorg('Annabelle', 79)">Köp</button>
         </article>
 
         <article>
@@ -29,7 +29,7 @@
                 <p>69 kr /kg</p>
             </div>
             
-            <button>Köp</button>
+            <button onclick="lägg_till_varukorg('Jacky', 69)">Köp</button>
         </article>
 
         <article>
@@ -38,7 +38,7 @@
                 <h2>Sättpotatis ’Carrera’</h2>
                 <p>69 kr /kg</p>
             </div>
-            <button>Köp</button>
+            <button onclick="lägg_till_varukorg('Carrera', 69)">Köp</button>
         </article>
 
         <article>
@@ -47,7 +47,7 @@
                 <h2>Sättpotatis ’Alexandra’</h2>
                 <p>79 kr /kg</p>
             </div>
-            <button>Köp</button>
+            <button onclick="lägg_till_varukorg('Alexandra', 79)">Köp</button>
         </article>
 
         <article>
@@ -56,7 +56,7 @@
                 <h2>Sättpotatis ’Baby-Lou’</h2>
                 <p>69 kr /kg</p>
             </div>
-            <button>Köp</button>
+            <button onclick="lägg_till_varukorg('Baby-Lou', 69)">Köp</button>
         </article>
 
         <article>
@@ -66,16 +66,16 @@
                 <p>79 kr /kg</p>
             </div>
             
-            <button>Köp</button>
+            <button onclick="lägg_till_varukorg('Heidemarie', 79)">Köp</button>
         </article>
     </main>
 
-    <div id="cart">
-        <h2>Kundvagn</h2>
-        <ul id="cart-items"></ul>
-        <p id="total">Totalt: 0 kr</p>
-        <button onclick="checkout()">Gå till kassan</button>
-    </div>
+    <div id="varukorg">
+        <h2>Varukorg</h2>
+        <ul id="varukorg-artiklar">
+        </ul>
+        <p>Totalt: <span id="totalt">0</span> kr</p>
+      </div>
 
     <footer>
         <h3>Kontakt information</h3>
